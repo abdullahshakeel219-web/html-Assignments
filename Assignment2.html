@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+</head>
+<body>
+    <form>
+        <h1>Student Information Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label>
+            <input type="fullname" id="fullname" name="fullname" placeholder="Enter Your Full Name" required><br><br>
+
+            <label for="rollnumber">Roll Number:</label>
+            <input type="rollnumber" id="rollnumber" name="rollnumber" placeholder="Enter Your Roll Number" required><br><br>
+            
+            <label for="contactnumber" >Contact Number:</label>
+            <input type="contactnumber" id="contactnumber" name="contactnumber" placeholder="contactnumber" required><br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Subjects</legend> 
+
+            <input type="checkbox" id="html">
+            <label for="HTML">HTMl</label><br>
+
+            <input type="checkbox" id="CSS">
+            <label for="CSS">CSS</label><br>
+
+            <input type="checkbox" id="javascript">
+            <label for="javascript">JavaScript</label><br>
+
+            <input type="checkbox" id="webDevelopment">
+            <label for="webDevelopment">Web Development</label><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Semester</legend>
+            <label for="selectsemester">Select Semester</label>
+           <select >
+            <option value="">Select Semester</option>
+            <option value="1">Semester 1</option>
+            <option value="2">Semester 2</option>
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+           </select>
+        </fieldset>
+        <fieldset>
+            <legend>Discipline</legend>
+            <label for="selectdiscipline">Select Discipline</label>
+            <select>
+                <option>Select Discipline</option>
+                <option value="BSCS">BSCS</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSE">BSE</option>
+                <option value="BSEE">BSEE</option>
+            </select>
+        </fieldset><br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
